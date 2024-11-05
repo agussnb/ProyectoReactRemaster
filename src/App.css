@@ -1,38 +1,274 @@
-.App {
+.navbar{
+  background-color: #051843;
+  color: #fff;
+  padding: 1rem;
+  font-family: "Marcellus", serif;
+}
+.navbar-brand:hover{
+  background-color: #061e55b2;
+  border-radius: 0.9rem;
+}
+.nav-item:hover{
+  background-color: #061e55b2;
+  border-radius: 0.9rem;
+}
+.dropdown-menu{
+  background-color: #061e55ed;
+}
+.dropdown-item{
+  color: #fff;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.mainBrandDisplay{
+  max-width: 100%;
+  max-height: 40%;
+  height: 15rem;
+  text-align: center;
+  background-color: #fff;
+  font-family: "Marcellus", serif;
+}
+h1{
+  font-weight: 500;
+  font-size: 5rem;
+}
+h2{
+  font-style: oblique;
+}
+.container{
+  max-width: 100%;
+}
+
+.CarouselImgWilson{
+  height: 36rem;
+  width: 110rem;
+}
+.CarouselImgHead{
+ height: 36rem;
+ width: 110rem;
+}
+.CarouselImgBabolat{
+  height: 36rem;
+  width: 110rem;
+}
+.CarouselImgYonex{
+  height: 36rem;
+  width: 110rem;
+}
+h3{
+  text-align: center;
+  color: #fff;
+  font-family: "Marcellus", serif;
+}
+.card-group{
+  margin: 0.8rem;
+}
+.card{
+  text-align: center;
+}
+.brandCards{
+  margin: 1rem;
+  height: 40rem;
+  width: 24rem;
+  font-family: "Marcellus", serif;
+  text-align: center;
+  border-radius: 1rem;
+}
+.brandCardImg{
+  -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+  border-bottom: solid 2px black;
+}
+.productsCard ,img{
+  width: 20rem;
+  height: 25rem;
+}
+.btn{
+  background-color: #051843;
+  height: 2rem;
+  width: 10rem;
+  color: #fff;
+}
+.btn:hover{
+  background-color: #08256aed;
+  color: #ffff;
+}
+.carousel-control-prev-icon{
+  width: 4rem;
+  height: 4rem;
+}
+.carousel-control-next-icon{
+  width: 4rem;
+  height: 4rem;
+}
+.itemDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.itemDetailCard{
+  height: 45rem;
+  width: 25rem;
+}
+.checkOutBrands{
+  position: absolute;
+  right: 8.5rem;
+ 
+}
+.registerDiv{
+  display: flex;
+  justify-content: center;
+  height: 56rem;
+  align-items: center;
+  
+}
+.registerCard{
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  font-family: "Marcellus", serif;
+  font-size: large;
+}
+.btnSubmitReg{
+  height: 3rem;
+  position: relative;
+  top: 5rem;
+}
+.card-body{
+  position: inherit;
+  top: 3rem;
+  height: 30rem;
+}
+.allItemsCardDetail-button{
+  position: inherit;
+  bottom: 1rem;
+}
+.card-details-button{
+  position: inherit;
+  bottom: 1rem;
+}
+.card-details-button:hover{
+  background-color: #08256aed;
+  color: #ffff;
+}
+.loginDiv{
+  display: flex;
+  justify-content: center;
+  height: 56rem;
+  align-items: center;
+  
+}
+.loginCard{
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  font-family: "Marcellus", serif;
+  font-size: large;
+}
+.btnSubmitLog{
+  height: 3rem;
+  position: relative;
+  top: 5rem;
+}
+.btnGoToReg{
+  position: inherit;
+  bottom: 4rem;
+}
+.img-fluid {
+  position: fixed;
+  width: 45vh;
+  height: 80vh;
+  /* right: 50%;
+  top: 10%; */
+}
+
+.item-detail-container {
+  position: fixed;
+  width: 50%;
+  height: 85%;
+  left: 50%;
+  top: 10%;
+  background-color: rgb(23, 21, 103);
+  color: #fff;
+}
+
+.lead-description {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display-4 {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-addToCart {
+  width: 10vh;
+  height: 8vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  position: absolute;
+  left: 50%;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 100vh;
+  height: 100%; 
+  transition: transform 0.3s ease-in-out;
+  position: inherit;
+  right: 30vh;
+}
+
+.slide {
+  flex: 0 0 50%; 
+  height: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="radio"] {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.arrows {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 100vh;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.arrow:active {
+  color: rgb(9, 39, 128);
+}
+
+#slide1:checked ~ .slider {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slider {
+  transform: translateX(-100%);
 }
